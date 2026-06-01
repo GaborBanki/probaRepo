@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="org.example.proba.GTNController"
+      alignment="CENTER"
+      spacing="15">
+
+    <Label text="Milyen számra gondoltam?" />
+
+    <TextField fx:id="tippField" maxWidth="200" />
+
+    <Label fx:id="eredmenyLabel" text="" />
+
+    <Button text="Küldés" onAction="#ellenoriz" />
+
+</VBox>
