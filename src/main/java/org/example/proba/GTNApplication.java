@@ -12,7 +12,7 @@ public class GTNApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(GTNApplication.class.getResource("GTN-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-        stage.setTitle("Hello!");
+        stage.setTitle("Számkitaláló játék");
         stage.setScene(scene);
         stage.show();
     }
